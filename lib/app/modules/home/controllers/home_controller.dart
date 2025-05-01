@@ -18,21 +18,7 @@ class Task {
   }
 }
 
-// class HomeController extends GetxController {
-//   var tasks = <Task>[].obs;
-//
-//   void addTask(String title) {
-//     if (title.isNotEmpty) {
-//       tasks.add(Task(title: title));
-//     }
-//   }
-//
-//   void toggleTask(int index) {
-//     var task = tasks[index];
-//     task.isCompleted = !task.isCompleted;
-//     tasks[index] = task;
-//   }
-// }
+
 
 class HomeController extends GetxController {
   var tasks = <Task>[].obs;
